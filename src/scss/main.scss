@@ -1,0 +1,10 @@
+@import 'navbar';
+
+.containerWide{
+    margin-left: 100px;
+    margin-right: 100px;
+    @include tablet{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
