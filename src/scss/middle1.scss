@@ -1,0 +1,32 @@
+@import 'colors';
+@import 'media';
+
+.middle{
+    color: gray;
+    font-size: 44px;
+    background-position: center center;
+    text-align:center;
+    margin-top: 80px;
+    @include tablet{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    @include mobile{
+        margin-top: 16px;
+        font-size: 16px;
+    }
+}
+
+.subtitleMiddle{
+    color: $Mid-Blue;
+    font-size: 124px;
+    background-position: center center;
+    text-align:center;
+    @include tablet{
+        font-size: 64px;
+    }
+    @include mobile{
+        font-size: 48px;
+    }
+}
+

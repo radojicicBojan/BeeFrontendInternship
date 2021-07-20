@@ -1,5 +1,6 @@
 @import 'navbar';
 @import 'header';
+@import 'middle1';
 
 *{
     margin: 0;
@@ -9,6 +10,19 @@
     margin-left: 100px;
     margin-right: 100px;
     @include tablet{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.containerNarrow{
+    margin-left: 200px;
+    margin-right: 200px;
+    @include tablet{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    @include mobile{
         margin-left: 10px;
         margin-right: 10px;
     }

@@ -20,9 +20,9 @@
 }
 
 .subtitle{
-    max-width: 550px;
+    max-width: 750px;
     color: white;
-    font-size: 88px;
+    font-size: 112px;
     @include tablet{
         max-width: 250px;
         font-size: 34px;
@@ -35,9 +35,9 @@
 
 .price{
     color: white;
-    font-size: 48px;
+    font-size: 64px;
     @include tablet{
-        font-size: 22px;
+        font-size: 32px;
         margin: 2px 0;
     }
     @include mobile{
@@ -60,7 +60,7 @@
     color: white;
     margin-top: 12px;
     padding: 24px 48px;
-    font-size: 32px;
+    font-size: 44px;
     font-weight: bold;
 
     @include tablet{
@@ -72,19 +72,6 @@
         margin-top: 3px;
         padding: 4px 6px;
         font-size: 18px;
-    }
-}
-
-.containerNarrow{
-    margin-left: 200px;
-    margin-right: 200px;
-    @include tablet{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    @include mobile{
-        margin-left: 10px;
-        margin-right: 10px;
     }
 }
 
