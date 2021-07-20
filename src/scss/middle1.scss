@@ -3,30 +3,67 @@
 
 .middle{
     color: gray;
-    font-size: 44px;
+    font-size: 26px;
     background-position: center center;
     text-align:center;
     margin-top: 80px;
     @include tablet{
-        margin-top: 20px;
-        font-size: 20px;
+        margin-top: 15px;
+        font-size: 14px;
     }
     @include mobile{
         margin-top: 16px;
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
 .subtitleMiddle{
     color: $Mid-Blue;
-    font-size: 124px;
+    font-size: 72px;
     background-position: center center;
     text-align:center;
     @include tablet{
-        font-size: 64px;
+        font-size: 32px;
     }
     @include mobile{
-        font-size: 48px;
+        font-size: 26px;
     }
 }
+
+.h3l{
+    margin-top: 20px;
+    max-width: 30%;
+    display: inline;
+    float: left;
+    margin-left: 10%;
+    @include mobile{
+        max-width: 100%;
+        float: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.h3r{
+    margin-top: 20px;
+    max-width: 30%;
+    display: inline;
+    float: right;
+    margin-right: 10%;
+    @include mobile{
+        max-width: 100%;
+        float: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+h3{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+
 
