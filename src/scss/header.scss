@@ -22,7 +22,7 @@
 .subtitle{
     max-width: 700px;
     color: white;
-    font-size: 78px;
+    font-size: 72px;
     @include tablet{
         max-width: 250px;
         font-size: 34px;
@@ -35,7 +35,7 @@
 
 .price{
     color: white;
-    font-size: 48px;
+    font-size: 44px;
     @include tablet{
         font-size: 32px;
         margin: 2px 0;
@@ -44,7 +44,8 @@
         font-size: 20px;
     }
     sup{
-        font-size: 24px;
+        color: white;
+        font-size: 22px;
         @include tablet{
             font-size: 11px;
         }
@@ -60,8 +61,9 @@
     color: white;
     margin-top: 12px;
     padding: 24px 48px;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
+    border: none;
 
     @include tablet{
         margin-top: 5px;
@@ -70,9 +72,7 @@
     }
     @include mobile{
         margin-top: 3px;
-        padding: 4px 6px;
-        font-size: 18px;
+        padding: 10px 18px;
+        font-size: 16px;
     }
 }
-
-

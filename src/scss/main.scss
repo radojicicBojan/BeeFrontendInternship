@@ -1,17 +1,20 @@
 @import 'navbar';
 @import 'header';
 @import 'middle1';
+@import 'footer';
 
 *{
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: $Mid-Blue;
 }
 
 .containerWide{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     @include tablet{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: calc(10px + 2%);
+        margin-right: calc(10px + 2%);
     }
 }
 
