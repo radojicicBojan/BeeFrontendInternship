@@ -44,7 +44,25 @@
         grid-template-columns: 1fr;
         grid-template-rows: 120px 120px 120px 120px;
     }
+}
 
+.containerCard{
+    height: 500px;
+    padding-top: 50px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 150px;
+    @include tablet{
+        padding-top: 30px;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 150px 150px;
+    }
+    @include mobile{
+        padding-top: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 120px 120px 120px;
+    }
 }
 
 .wrap{
@@ -81,3 +99,11 @@
     }
 }
 
+.card{
+    margin-left: 30px;
+    display: flex;
+    @include mobile{
+       margin: auto;
+       max-width: 320px;
+    }
+}

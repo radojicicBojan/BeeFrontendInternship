@@ -1,0 +1,46 @@
+.middle2 {
+  background-color: #012f9e;
+}
+
+.subtitleMidle2 {
+  color: white;
+}
+
+.citiesPics {
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  height: 160px;
+  flex: none;
+  display: inline-block;
+}
+
+.cityTitle {
+  flex: none;
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+}
+
+.blockDown {
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.cityPrice {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.bookNow {
+  margin: 50px 0 50px 0;
+  font-size: 20px;
+}
+
+.bookInfo {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1pZGRsZTIuc2NzcyIsImNvbG9ycy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVJO0VBQ0Esa0JDRE87OztBRElYO0VBQ0k7OztBQUdKO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOzs7QUFHSjtFQUNJO0VBQ0E7RUFDQTtFQUNBOzs7QUFHSjtFQUNJO0VBQ0E7RUFDQTtFQUNBOzs7QUFHSjtFQUNJO0VBQ0E7OztBQUdKO0VBQ0k7RUFDQTs7O0FBR0o7RUFDSTtFQUNBIiwiZmlsZSI6Im1pZGRsZTIuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiICAgIEBpbXBvcnQgJ2NvbG9ycyc7XHJcbiAgICBcclxuICAgIC5taWRkbGUye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogJE1pZC1CbHVlO1xyXG59XHJcblxyXG4uc3VidGl0bGVNaWRsZTJ7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi5jaXRpZXNQaWNze1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgcGFkZGluZzogMDtcclxuICAgIHdpZHRoOiAyNDBweDtcclxuICAgIGhlaWdodDogMTYwcHg7XHJcbiAgICBmbGV4OiBub25lO1xyXG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG59XHJcblxyXG4uY2l0eVRpdGxle1xyXG4gICAgZmxleDogbm9uZTtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgIGNvbG9yOmJsYWNrO1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG59XHJcblxyXG4uYmxvY2tEb3due1xyXG4gICAgaGVpZ2h0OiAxNTBweDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuLmNpdHlQcmljZXtcclxuICAgIGNvbG9yOiBncmF5O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmJvb2tOb3d7XHJcbiAgICBtYXJnaW46IDUwcHggMCA1MHB4IDA7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbn1cclxuXHJcbi5ib29rSW5mb3tcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcclxufSIsIiRMaWdodDogI2ZmZmZmZjtcclxuJExpZ2h0LUJsdWU6ICMzNmJlZmU7XHJcbiRNaWQtQmx1ZTogIzAxMmY5ZTtcclxuJERhcmstQmx1ZTogIzAyMWY1OTtcclxuIl19 */

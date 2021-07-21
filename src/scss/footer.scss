@@ -23,6 +23,7 @@ footer{
 }
 
 .logos{
+    width: 300px;
     @include tablet{
         width: 300px;
     }
