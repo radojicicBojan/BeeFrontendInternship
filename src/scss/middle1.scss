@@ -42,26 +42,25 @@
     @include mobile{
         padding-top: 20px;
         grid-template-columns: 1fr;
-        grid-template-rows: 120px 120px 120px 120px;
+        grid-template-rows: 130px 130px 130px 130px;
     }
 }
 
 .containerCard{
-    height: 500px;
     padding-top: 50px;
+    padding-bottom: 50px;
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 150px;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); 
+    gap: 20px;
     @include tablet{
         padding-top: 30px;
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 150px 150px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px 10px;
     }
     @include mobile{
         padding-top: 20px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 120px 120px 120px 120px;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
 
@@ -93,17 +92,11 @@
 .block{
     margin-left: 30px;
     display: flex;
-    @include mobile{
-       margin: auto;
-       max-width: 320px;
-    }
 }
 
 .card{
-    margin-left: 30px;
+    height: auto;
     display: flex;
-    @include mobile{
-       margin: auto;
-       max-width: 320px;
-    }
+    flex-direction: column;
+    position: relative;
 }

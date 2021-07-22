@@ -12,10 +12,10 @@
     display: flex;
     align-items: center;
     @include tablet{
-        height: 350px;
+        height: 360px;
     }
     @include mobile{
-        height: 200px;
+        height: 300px;
     }
 }
 
@@ -25,11 +25,11 @@
     font-size: 72px;
     display: flex;
     @include tablet{
-        max-width: 250px;
+        max-width: 320x;
         font-size: 34px;
     }
     @include mobile{
-        max-width: 250px;
+        max-width: 320px;
         font-size: 32px;
     }
 }

@@ -1,18 +1,28 @@
-    @import 'colors';
+ @import 'colors';
+ @import 'media';
     
     .middle2{
     background-color: $Mid-Blue;
 }
 
 .subtitleMidle2{
+    font-weight: normal;
+    padding-top: 30px;
     color: white;
+    @include mobile{
+       font-size: 36px;
+       text-align: center;
+    }
+    .wrap{
+        color:white;
+    }
 }
 
 .citiesPics{
     margin: 0;
     padding: 0;
-    width: 240px;
-    height: 160px;
+    height: auto;
+
     flex: none;
     display: inline-block;
 }
@@ -22,26 +32,67 @@
     display: inline-block;
     color:black;
     font-size: 20px;
+    @include mobile{
+        font-size: 32px;
+    }
 }
 
 .blockDown{
-    height: 150px;
+    padding: 20px 20px;
     margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 
 .cityPrice{
     color: gray;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    @include mobile{
+        font-size: 22px;
+    }
 }
 
 .bookNow{
-    margin: 50px 0 50px 0;
+    font-weight: bold;
+    margin-top: 10%;
     font-size: 20px;
+    @include mobile{
+        font-size: 32px;
+    }
 }
 
-.bookInfo{
-    margin-top: 10px;
-    margin-left: 10px;
+.leftInfo{
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    background-color: $Yellow;
+    padding: 5px 10px;
+    top: 20px;
+    left: -10px;
+    @include tablet{
+        line-height: 30px;
+        font-size: 24px;
+    }
+    @include mobile{
+        font-size: 26px;
+    }
+    &:before{
+        content: "";
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        left: 3px;
+        top: 21.5px;
+        transform: rotateZ(135deg);
+        box-sizing: border-box;
+        border-top: 7.07px solid transparent;
+        border-left: 4px solid transparent;
+        border-bottom: 7.07px solid transparent;
+        border-right: 7.07px solid $Dark-Yellow;
+        @include tablet{
+            top: 32.75px;
+        }
+    }
 }
