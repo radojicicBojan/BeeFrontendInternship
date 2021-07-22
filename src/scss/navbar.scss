@@ -44,15 +44,13 @@ a{
     }
 
     &__select{
-        position: relative;
         margin-top: 8px;
         padding: 15px;
-        right: 5px;
+        margin-right: 5px;
         font-size: 18px;
         @include tablet{
             margin-top: 11px;
             padding: 5px;
-            right: 5px;
             font-size: small;
         
         }
@@ -103,7 +101,7 @@ a{
 .flag{
     position: relative;
     width: 25px;
-    height: 20px;
+    height: 15px;
     @include tablet{
         margin-right: 5px;
         width: 15px;

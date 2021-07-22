@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/css/main.css" />
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Travel agency</title>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
     </div>
 
     <header class="header">
-        <div class="containerWide">
+        <div id="carusel" class="containerWide">
             <h1 class="subtitle">Enjoy our hot summer deals</h1>
             <h2 class="price">from £69<sup>.50</sup></h1>
                 <button id="book" class="book">Book now!</button>
@@ -49,16 +50,16 @@
         </div>
     </header>
 
-    <div class="containerNarrow">
+    <section class="containerNarrow">
         <div class="middle1">
             <div class="containerWide">
                 <div class="middle">LOW COST DOESN'T MEAN CHEAP</div>
                 <h1 class="subtitleMiddle">Fly smart, <span class="wrap">fly with Green Earth</span></h1>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="containerNarrow containerRows">
+    <section class="containerNarrow containerRows">
         <div class="block">
             <img class="logosPic" src="dist/images/seat.jpg">
             <div>
@@ -98,14 +99,14 @@
                     labore et dolore magna aliqua.</div>
             </div>
         </div>
-    </div>
-    <div class="middle2">
+    </section>
+    <section class="middle2">
         <div class="containerNarrow">
             <h3 class="subtitleMidle2">Showing <span class="wrap">our offers from</span></h3>
         </div>
 
         <div class="containerNarrow containerCard">
-            <div class="card">
+            <article class="card">
                 <img class="citiesPics" src="dist/images/london.jpg">
                 <span class="leftInfo">3h left at this rate</span>
                 <div class="blockDown">
@@ -113,38 +114,149 @@
                     <span class="cityPrice">from £59</span>
                     <a class="bookNow" href="#">Book now></a>
                 </div>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
                 <img class="citiesPics" src="dist/images/hamburg.jpg">
                 <div class="blockDown">
                     <h4 class="cityTitle">Hamburg</h4>
                     <span class="cityPrice">from £79</span>
                     <a class="bookNow" href="#">Book now></a>
                 </div>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
                 <img class="citiesPics" src="dist/images/alicante.jpg">
                 <div class="blockDown">
                     <h4 class="cityTitle">Alicante</h4>
                     <span class="cityPrice">from £89</span>
                     <a class="bookNow" href="#">Book now></a>
                 </div>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
                 <img class="citiesPics" src="dist/images/milano.jpg">
                 <div class="blockDown">
                     <h4 class="cityTitle">Milano</h4>
                     <span class="cityPrice">from £119</span>
                     <a class="bookNow" href="#">Book now></a>
                 </div>
+            </article>
+        </div>
+        </div>
+    </section>
+
+    <section class="containerNarrow middle3">
+        <h5 class="where2go">Don't know where to go?</h5>
+        <h5 class="inspire">Let us inspire you</h5>
+    </section>
+
+    <section class="m4">
+        <div class="containerNarrow middle4">
+            <div class="containerStrait">
+                <div class="quality">QUALITY FROM THE INSIDE</div>
+                <h2 class="travel">Travel the way you want</h2>
+                <div class="text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </div>
+            </div>
+            <div class="viewServices">View all services & upgrades</div>
+        </div>
+
+        <div class="containerNarrow tabControl">
+            <ul class="tabLinks">
+                <li class="tabLink-item tabLink-active" data-tab="#regular_tab">Regular</li>
+                <li class="tabLink-item" data-tab="#plus_tab">Plus</li>
+                <li class="tabLink-item" data-tab="#premium_tab">Premium</li>
+            </ul>
+            <div class="content">
+                <div id="regular_tab" class="tabContent tabContent-active">
+                    <article class="showTab">
+                        <img class="kidImage" src="/dist/images/kid.jpg">
+                        <span class="tabTitle mobileOnly">Regular</span>
+                        <div class="lists"><span>
+                                Reclinable seats
+                            </span>
+                            <span>
+                                1 Hand luggage
+                            </span>
+                            <span>
+                                Extra leg room
+                            </span>
+                        </div>
+                        <div class="lists">
+                            <span>
+                                Extra cabin luggage
+                            </span>
+                            <span>
+                                Extra hold luggage
+                            </span>
+                            <span>
+                                Lounge access
+                            </span>
+                        </div>
+                    </article>
+                </div>
+                <div id="plus_tab" class="tabContent">
+                    <article class="showTab">
+                        <img class="kidImage" src="/dist/images/kid.jpg">
+                        <span class="tabTitle mobileOnly">Plus</span>
+                        <div class="lists"><span>
+                                Reclinable seats
+                            </span>
+                            <span>
+                                1 Hand luggage
+                            </span>
+                            <span>
+                                Extra leg room
+                            </span>
+                        </div>
+                        <div class="lists">
+                            <span>
+                                Extra cabin luggage
+                            </span>
+                            <span>
+                                Extra hold luggage
+                            </span>
+                            <span>
+                                Lounge access
+                            </span>
+                        </div>
+                    </article>
+                </div>
+
+                <div id="premium_tab" class="tabContent">
+                    <article class="showTab">
+                        <img class="kidImage" src="/dist/images/kid.jpg">
+                        <span class="tabTitle mobileOnly">Premium</span>
+                        <div class="lists"><span>
+                                Reclinable seats
+                            </span>
+                            <span>
+                                1 Hand luggage
+                            </span>
+                            <span>
+                                Extra leg room
+                            </span>
+                        </div>
+                        <div class="lists">
+                            <span>
+                                Extra cabin luggage
+                            </span>
+                            <span>
+                                Extra hold luggage
+                            </span>
+                            <span>
+                                Lounge access
+                            </span>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
-    </div>
-    </div>
+    </section>
 
 
     <footer>
-        <div class="containerWide">
+        <div class="containerWide ">
             <img src="/dist/images/logos.jpg" alt="Logos" class="logos">
             <div>
                 <a href="" class="footer--links">Terms & Privacy</a>

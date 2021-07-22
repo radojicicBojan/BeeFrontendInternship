@@ -1,0 +1,30 @@
+@import 'colors';
+@import 'media';
+
+.middle3{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    @include mobile{
+        flex-direction: column;
+    }
+}
+.where2go{
+    font-size: 24px;
+    color: $Mid-Blue;
+    font-weight: normal;
+    @include mobile{
+        text-align: center;
+    }
+}
+
+.inspire{
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: dashed underline;
+    color: $Mid-Blue;
+    @include mobile{
+        text-align: center;
+    }
+}
