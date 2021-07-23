@@ -5,35 +5,109 @@
     background-color: $Mid-Blue;
     justify-content: center;
     padding-bottom: 20px;
+    @include tablet{
+        background-color: white;
+    }
 }
 
 .middleEnd{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: $Mid-Blue;
+    gap: 20px;
     padding-top: 20px;
     color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     @include tablet{
+       margin: 0;
         flex-direction: column;
     }
 }
 
 .subscribe{
-   justify-content: left;
+    color: white;
+   line-height: 36px;
    padding-right: 20px;
    @include tablet{
-        justify-content: center;
+
 }
 }
 
-.subInput{
-    margin-right: 50%;
+.followUs{
+    background-color: $Mid-Blue;
+    justify-content: right;
     @include tablet{
+        background-color: white;
+        text-align: center;
+        color: $Mid-Blue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-self: center;
         justify-content: center;
     }
 }
 
-.followUs{
-    justify-content: right;
+.emailNewsletter{
+    display: flex;
     @include tablet{
-        justify-content: center;
+       flex-direction: column;
+    }
+    .subInput{
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 10px 20px;
+        width: 200px;
+        @include tablet{
+            align-self: center;
+            width: 120%;
+        }
+        @include mobile{
+            align-self: center;
+            width: 200%;
+        }
+    }
+    .send{
+        cursor: pointer;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        @include tablet{
+            font-weight: bold;
+            color: $Mid-Blue;
+            margin-top: 20px;
+            align-self: center;
+            background-color: white;
+            height: 30px;
+            width: 200px;
+        }
+    }
+}
+
+.displayMark{
+    @include tablet{
+        display: none;
+    }
+
+}
+.followUsGroup{
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    @include tablet{
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        display: block;
+        align-items: center;
+    }
+    img{
+        cursor: pointer;
+        margin-left: 10px;
+        width: 36px;
     }
 }

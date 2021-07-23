@@ -23,12 +23,27 @@ footer{
 }
 
 .logos{
-    justify-content: left;
+    padding: 10px 10px;
     width: 300px;
     @include tablet{
+        padding: 5px 5px;
+        align-self: center;
         width: 300px;
     }
     @include mobile{
         width: 250px;
     }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    @include tablet{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.links{
+    padding-top: 25px;
 }
