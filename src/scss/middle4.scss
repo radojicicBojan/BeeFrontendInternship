@@ -55,13 +55,13 @@
         }
         .tabLink-item{
             width: 33.33%;
-            background-color: lightgray;
+            background-color: $Light-Gray;
             box-sizing: border-box;
             text-align: center;
             padding: 20px;
             font-size: 28px;
             color: gray;
-            border-right: 2px solid gray;
+            border-right: 2px solid $Mid-Gray;
             &:last-child{
                 border-right: none;
             }
@@ -106,6 +106,21 @@
 }
 
 .lists{
+    color: $Dark-Blue;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    *{
+        padding: 10px;
+    }
+    @include mobile{
+        align-items: center;
+    }
+}
+
+.listsUnabled{
+    color: $Mid-Gray;
     font-size: 20px;
     justify-content: center;
     display: flex;
@@ -130,4 +145,17 @@
     font-weight: bold;
     text-align: center;
     padding: 20px;
+}
+
+.cross{
+    color: $Mid-Blue;
+}
+
+.extraPay{
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    @include tablet{
+        width: 20px;
+    }
 }

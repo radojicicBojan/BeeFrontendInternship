@@ -1,0 +1,39 @@
+@import 'colors';
+@import 'media';
+
+.mEnd{
+    background-color: $Mid-Blue;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.middleEnd{
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    @include tablet{
+        flex-direction: column;
+    }
+}
+
+.subscribe{
+   justify-content: left;
+   padding-right: 20px;
+   @include tablet{
+        justify-content: center;
+}
+}
+
+.subInput{
+    margin-right: 50%;
+    @include tablet{
+        justify-content: center;
+    }
+}
+
+.followUs{
+    justify-content: right;
+    @include tablet{
+        justify-content: center;
+    }
+}

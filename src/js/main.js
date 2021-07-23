@@ -7,9 +7,9 @@ $(document).ready(function () {
             price: "from £69<sup>.50</sup>" 
         },
         { 
-            img: "/dist/images/summer.jpg", 
-            title: "Enjoy our ssss summer deals", 
-            price: "from £69<sup>.50</sup>" 
+            img: "/dist/images/winter.jpeg", 
+            title: "Enjoy our cold winter deals", 
+            price: "from £79<sup>.90</sup>" 
         }
     ];
 

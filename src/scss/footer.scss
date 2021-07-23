@@ -1,11 +1,10 @@
 @import 'media';
+@import 'colors';
 
 footer{
     text-align: right;
     font-size: 20px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     @include tablet{
         text-align: center;
         font-size: 16px;
@@ -20,9 +19,11 @@ footer{
 
 .footer--links{
     margin-right: 15px;
+    color: $Mid-Gray;
 }
 
 .logos{
+    justify-content: left;
     width: 300px;
     @include tablet{
         width: 300px;
